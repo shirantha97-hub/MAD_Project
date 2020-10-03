@@ -23,7 +23,7 @@ import java.util.HashMap;
 public class stdDetails extends AppCompatActivity {
 
     EditText etid,etname,etaddress,ettel,etvehical;
-    Button btnadd,btndelete,btnupdate,btndisplay,Next;
+    Button btnadd,btndelete,btnupdate,btndisplay,btnNext;
 
 
 
@@ -49,7 +49,15 @@ public class stdDetails extends AppCompatActivity {
         btndelete = findViewById(R.id.btndelete);
         btnupdate = findViewById(R.id.btnupdate);
         btndisplay = findViewById(R.id.btndisplay);
-        Next = findViewById(R.id.next);
+        btnNext = findViewById(R.id.next);
+
+        btnNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(stdDetails.this, Cal.class);
+                startActivity(i);
+            }
+        });
         addData();
 
 
@@ -123,13 +131,7 @@ public class stdDetails extends AppCompatActivity {
             }
         });
 
-        Next.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(stdDetails.this, TestActivity.class);
-                startActivity(i);
-            }
-        });
+
 
     }
 
