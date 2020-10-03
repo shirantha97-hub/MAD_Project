@@ -24,8 +24,8 @@
 
         <EditText
             android:id="@+id/add1"
-            android:layout_width="140dp"
-            android:layout_height="31dp"
+            android:layout_width="136dp"
+            android:layout_height="68dp"
             android:ems="10"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -38,7 +38,7 @@
         <EditText
             android:id="@+id/add2"
             android:layout_width="140dp"
-            android:layout_height="31dp"
+            android:layout_height="66dp"
             android:ems="10"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"

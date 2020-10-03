@@ -29,7 +29,7 @@ public class TestActivity extends AppCompatActivity {
     public void addnum(View view){
         int a,b,result;
         a=Integer.parseInt(et1.getText().toString());
-        b=Integer.parseInt(et1.getText().toString());
+        b=Integer.parseInt(et2.getText().toString());
         result=a+b;
         tvadd.setText(String.valueOf(result));
     }
