@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DRIVAGO-MAD</string>
+    <string name="app_names">DRIVAGO-MAD</string>
     <string name="DRIVAGO">DRIVAGO</string>
     <string name="student_details">STUDENT DETAILS</string>
     <string name="id">Student ID</string>
@@ -27,4 +27,5 @@
     <string name="carfee">Car=$100</string>
     <string name="busfee">Bus=$200</string>
     <string name="bikefee">Bike=$50</string>
+    <string name="tot">$</string>
 </resources>
