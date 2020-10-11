@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "418898708796",
+    "firebase_url": "https://mad-anton.firebaseio.com",
+    "project_id": "mad-anton",
+    "storage_bucket": "mad-anton.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418898708796:android:d39da0faee81c1f58f7639",
+        "android_client_info": {
+          "package_name": "com.example.drivago_mad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418898708796-8me5oamgbrq50b7cb43sgefqcin5gpa6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drivago_mad",
+            "certificate_hash": "6068e4a627ab232d3b7b81f0d19e784db2ab4aaa"
+          }
+        },
+        {
+          "client_id": "418898708796-6l6iapc7dg1g0q3s5m12nvia1rstmm2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEdC-b4qyQqcGts1imNFN5Dc-7wyH9QoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418898708796-6l6iapc7dg1g0q3s5m12nvia1rstmm2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
